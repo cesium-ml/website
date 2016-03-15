@@ -1,3 +1,9 @@
 [submodule "themes"]
 	path = themes
 	url = git@github.com:getpelican/pelican-themes.git
+[submodule "blog/plugins"]
+	path = blog/plugins
+	url = git@github.com:getpelican/pelican-plugins.git
+[submodule "blog/plugins_md/comments"]
+	path = blog/plugins_md/comments
+	url = git@github.com:ryneeverett/python-markdown-comments.git
