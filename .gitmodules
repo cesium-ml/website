@@ -7,6 +7,6 @@
 [submodule "blog/plugins_md/comments"]
 	path = blog/plugins_md/comments
 	url = git@github.com:ryneeverett/python-markdown-comments.git
-[submodule "tools/gh-pages"]
-	path = tools/gh-pages
+[submodule "gh-pages"]
+	path = gh-pages
 	url = git@github.com:cesium-ml/cesium-ml.github.io.git
