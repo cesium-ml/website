@@ -1,4 +1,4 @@
-# Cesium website
+# http://cesium.ml
 
 ## Installing build dependencies
 
@@ -16,5 +16,6 @@ git submodule update
 
 ## Editing the main page
 
-Edit ``index.html`` and preview in your browser.
+Edit ``gh-pages/index.html`` and preview in your browser.  When done, commit
+the changes.
 
