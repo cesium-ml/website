@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Cesium Developers'
-SITENAME = 'Cesium Updates'
-SITEURL = ''
+SITENAME = 'Cesium'
+SITEURL = 'http://cesium-ml.org'
 
 PATH = 'content'
 
@@ -34,7 +34,7 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME = '../themes/foundation-default-colours'
+THEME = '../theme'
 
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
