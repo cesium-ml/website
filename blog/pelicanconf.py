@@ -8,6 +8,7 @@ SITEURL = 'http://cesium-ml.org'
 
 PATH = 'content'
 RELATIVE_URLS = True
+STATIC_PATHS = ['images', 'notebooks']
 
 TIMEZONE = 'US/Pacific'
 
