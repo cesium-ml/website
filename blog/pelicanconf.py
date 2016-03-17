@@ -7,6 +7,7 @@ SITENAME = 'Cesium'
 SITEURL = 'http://cesium-ml.org'
 
 PATH = 'content'
+RELATIVE_URLS = True
 
 TIMEZONE = 'US/Pacific'
 
