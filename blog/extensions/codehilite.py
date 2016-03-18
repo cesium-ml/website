@@ -17,8 +17,8 @@ License: [BSD](http://www.opensource.org/licenses/bsd-license.php)
 
 from __future__ import absolute_import
 from __future__ import unicode_literals
-from . import Extension
-from ..treeprocessors import Treeprocessor
+from markdown.extensions import Extension
+from markdown.treeprocessors import Treeprocessor
 
 try:
     from pygments import highlight
@@ -127,7 +127,7 @@ class CodeHilite(object):
             if self.wrap_by_lang and self.lang:
                 return '<div class="%(class)s-%(lang)s">%(html)s</div>\n' % {
                     'class': self.css_class,
-                    'lang': lang.replace('+', '-'),
+                    'lang': self.lang.replace('+', '-'),
                     'html': hilited_html,
                 }
             else:

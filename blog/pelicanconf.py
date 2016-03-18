@@ -45,12 +45,16 @@ ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 # of the form <!---   text -->   (note the three opening dashes)
 # from article input.
 import sys, os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__),
-                                'plugins_md/comments'))
+BASEDIR = os.path.join(os.path.dirname(__file__))
+sys.path.insert(0, os.path.join(BASEDIR, 'plugins_md/comments'))
 from mkdcomments import CommentsExtension
 
+sys.path.insert(0, os.path.join(BASEDIR, 'extensions'))
+
 # https://github.com/getpelican/pelican/issues/1238
-MD_EXTENSIONS = ['fenced_code',
-                 'codehilite(css_class=highlight, linenums=False)',
-                 'extra', 'sane_lists', 'smarty', 'toc',
-                 CommentsExtension()]
+MD_EXTENSIONS = ['extra', 'sane_lists', 'smarty', 'toc',
+                 CommentsExtension(),
+                 'fenced_code',
+                 'codehilite(css_class=highlight, linenums=False)']
+
+FOUNDATION_PYGMENT_THEME = 'friendly'
