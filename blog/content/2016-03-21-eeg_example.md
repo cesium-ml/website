@@ -3,7 +3,7 @@ Tags: cesium
 Status: published
 Date: 2016-03-21
 
-> IPython notebook: <a href="/notebooks/EEG_Example.ipynb" download="EEG_Example.ipynb">download</a>
+> IPython notebook: <a href="{attach}notebooks/EEG_Example.ipynb" download="EEG_Example.ipynb">download</a>
 
 In this example we'll use the [`cesium`](http://github.com/cesium-ml/cesium/) library to compare
 various techniques for epilepsy detection using a classic EEG time series dataset from
@@ -47,7 +47,7 @@ for label, subplot in zip(np.unique(eeg["classes"]), ax):
 ```
 
 
-![png](/images/EEG_Example_output_1_0.png)
+![png]({attach}images/EEG_Example_output_1_0.png)
 
 
 ## Featurization
