@@ -75,7 +75,8 @@ class CodeHilite(object):
 
     def __init__(self, src=None, linenums=None, guess_lang=True,
                  css_class="codehilite", lang=None, style='default',
-                 noclasses=False, tab_length=4, hl_lines=None, use_pygments=True):
+                 noclasses=False, tab_length=4, hl_lines=None, use_pygments=True,
+                 wrap_by_lang=True):
         self.src = src
         self.lang = lang
         self.linenums = linenums
@@ -86,6 +87,7 @@ class CodeHilite(object):
         self.tab_length = tab_length
         self.hl_lines = hl_lines or []
         self.use_pygments = use_pygments
+        self.wrap_by_lang = wrap_by_lang
 
     def hilite(self):
         """
@@ -114,13 +116,22 @@ class CodeHilite(object):
                         lexer = get_lexer_by_name('text')
                 except ValueError:
                     lexer = get_lexer_by_name('text')
+            lang = lexer.aliases[0]
             formatter = get_formatter_by_name('html',
                                               linenos=self.linenums,
                                               cssclass=self.css_class,
                                               style=self.style,
                                               noclasses=self.noclasses,
                                               hl_lines=self.hl_lines)
-            return highlight(self.src, lexer, formatter)
+            hilited_html = highlight(self.src, lexer, formatter)
+            if self.wrap_by_lang and self.lang:
+                return '<div class="%(class)s-%(lang)s">%(html)s</div>\n' % {
+                    'class': self.css_class,
+                    'lang': lang.replace('+', '-'),
+                    'html': hilited_html,
+                }
+            else:
+                return hilited_html
         else:
             # just escape and build markup usable by JS highlighting libs
             txt = self.src.replace('&', '&amp;')
