@@ -1,12 +1,16 @@
 [submodule "blog/plugins"]
 	path = blog/plugins
 	url = git@github.com:getpelican/pelican-plugins.git
+    branch = master
 [submodule "blog/plugins_md/comments"]
 	path = blog/plugins_md/comments
-	url = git@github.com:ryneeverett/python-markdown-comments.git
+    url = git@github.com:ryneeverett/python-markdown-comments.git
+    branch = master
 [submodule "gh-pages"]
 	path = gh-pages
-	url = git@github.com:cesium-ml/cesium-ml.github.io.git
+    url = git@github.com:cesium-ml/cesium-ml.github.io.git
+    branch = master
 [submodule "theme"]
 	path = theme
-	url = git@github.com:cesium-ml/theme.git
+    url = git@github.com:cesium-ml/theme.git
+    branch = master
