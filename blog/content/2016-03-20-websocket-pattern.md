@@ -9,7 +9,7 @@ Summary: Using long polling and other workarounds to deal with
 
 *This post is part of a series of articles on the infrastructure
 underlying [Cesium](http://cesium.ml).  Please send us your feedback
-in the comments sectio below.*
+in the comments section below.*
 
 ## Motivation
 
