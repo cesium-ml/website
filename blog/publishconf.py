@@ -21,5 +21,5 @@ OUTPUT_PATH = '../gh-pages/blog'
 
 # Following items are often useful when publishing
 
-#DISQUS_SITENAME = ""
+DISQUS_SITENAME = 'cesium-ml'
 #GOOGLE_ANALYTICS = ""
