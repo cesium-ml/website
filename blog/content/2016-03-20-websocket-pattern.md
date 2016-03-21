@@ -8,7 +8,7 @@ Summary: Using long polling and other workarounds to deal with
          micro-services.
 
 *This post is part of a series of articles on the infrastructure
-underlying [Cesium](http://cesium.ml).  Please send us your feedback
+underlying [cesium](http://cesium.ml).  Please send us your feedback
 in the comments section below.*
 
 ## Motivation
@@ -68,7 +68,7 @@ Flask app (running on a Unix socket).
 To allow communication between web servers and WebSocket servers, a
 [ZeroMq](http://zeromq.org/) XPUB-XSUB pipeline is established (this
 is a very simple form of a message broker, and comprises a mere
-[20 lines of code](https://github.com/cesium-ml/message_flow/blob/master/message_proxy.py).
+[20 lines of code](https://github.com/cesium-ml/message_flow/blob/master/message_proxy.py)).
 
 The frontend connects to the backend using a
 [reconnecting WebSocket](https://github.com/joewalnes/reconnecting-websocket).
