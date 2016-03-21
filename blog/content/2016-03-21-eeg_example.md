@@ -1,5 +1,5 @@
 Title: Epilepsy Detection Using EEG Data
-Tags: cesium
+Tags: example
 Status: published
 Date: 2016-03-21
 
