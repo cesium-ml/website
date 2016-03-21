@@ -1,5 +1,5 @@
 Title: Introducing cesium
-Tags: cesium
+Category: cesium
 Status: published
 Date: 2016-03-18
 
