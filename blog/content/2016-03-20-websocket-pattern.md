@@ -180,8 +180,7 @@ And hook it up:
 - Messages are relayed to the frontend by [publishing them onto the message
   queue](https://github.com/cesium-ml/message_flow/blob/master/flask_app.py#L33).
 
-- Make sure the following services and config files are in copied
-  from our repository:
+- Copy the following services and config files from our repository:
 
     - Makefile
     - supervisord.conf
