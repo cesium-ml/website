@@ -4,3 +4,4 @@
 *.pid
 **/__pycache__
 **/output
+**/.ipynb_checkpoints

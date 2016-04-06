@@ -17,6 +17,8 @@ galaxy?* Even in the presence of sensor noise and intrinsic diversity of the
 samples, well-trained domain specialists show a remarkable ability to make
 discerning statements about the complex data.
 
+![png]({attach}images/cesium_intro.png)
+
 In an era when more time series data are being collected than can be visually
 inspected by domain experts, however, computational frameworks must necessarily
 act as human surrogates. Capturing the subtleties that domain experts intuit in
