@@ -311,6 +311,10 @@ Wavelet transform features: training accuracy=100.00%, test accuracy=95.20%
 ```
 
 The workflow presented here is intentionally simplistic and omits many important steps
-such as feature selection, model parameter selection, etc. Since we make use of standard
-`scikit-learn` models, additional steps can be incorporated in the same way they would be
-for any other (non-time domain) machine learning problem.
+such as feature selection, model parameter selection, etc., which may all be
+incorporated just as they would for any other `scikit-learn` analysis.
+But with essentially three function calls (`featurize_time_series`,
+`build_model_from_featureset`, and `model_predictions`), we are able to build a
+model from a set of time series and make predictions on new, unlabeled data. In
+upcoming posts we'll introduce the web frontend for `cesium` and describe how
+the same analysis can be performed in a browser with no setup or coding required.
