@@ -5,6 +5,8 @@ set -e
 THIS_DIR="$( dirname "${BASH_SOURCE[0]}")"
 ROOT=$(cd "${THIS_DIR}/.." && pwd)
 
+git submodule update
+
 cd $ROOT/gh-pages
 git checkout master
 git fetch origin
