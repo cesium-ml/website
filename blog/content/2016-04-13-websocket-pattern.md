@@ -39,7 +39,7 @@ This article presents a simple recipe for adding WebSocket support to
 your Python web server.  It works with any WSGI server (Flask, Django,
 Pylons, etc.), and allows scaling up as demand increases.  The full
 source code is available online at
-[https://github.com/cesium/message_flow](https://github.com/cesium/message_flow).
+[https://github.com/cesium-ml/message_flow](https://github.com/cesium-ml/message_flow).
 
 Our end goal is to provide a pattern through which implementation of a
 data flow model such as [Flux](https://facebook.github.io/flux/)
