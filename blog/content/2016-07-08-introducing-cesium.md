@@ -1,6 +1,6 @@
 Title: Introducing cesium
 Category: cesium
-Status: draft
+Status: published
 
 From the reading of electroencephalograms (EEGs) to earthquake seismograms to light
 curves of astronomical variable stars, gleaning insight from time series data
