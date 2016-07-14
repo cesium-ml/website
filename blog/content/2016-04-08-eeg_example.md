@@ -1,6 +1,6 @@
 Title: Epilepsy Detection Using EEG Data
 Tags: example
-Status: draft
+Status: published
 
 > IPython notebook: <a href="{attach}notebooks/EEG_Example.ipynb" download="EEG_Example.ipynb">download</a>
 

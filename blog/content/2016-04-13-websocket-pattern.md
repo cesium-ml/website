@@ -1,6 +1,6 @@
 Title: A Pattern for Websockets in Python
 Category: engineering
-Status: draft
+Status: published
 Summary: Using long polling and other workarounds to deal with
          long-running tasks is less than optimal.  We explore a
          pattern for easy deployment of WebSockets in Python web
