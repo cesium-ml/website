@@ -13,6 +13,5 @@ git submodule update
 - The frontpage is located at ``theme/templates/frontpage.html``
 - Update or add posts at ``blog/content`` (see existing posts for examples)
 - Run ``make devserver`` in blog, and connect to http://localhost:8000
-- When ready to update blog, run ``tools/gh-upload.sh``
-
+- When ready to update the site, run ``tools/gh-upload.sh``
 
