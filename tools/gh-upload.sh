@@ -7,6 +7,9 @@ ROOT=$(cd "${THIS_DIR}/.." && pwd)
 
 git submodule update
 
+cd $ROOT/theme
+git pull origin master
+
 cd $ROOT/gh-pages
 git reset --hard origin/master
 git checkout master
