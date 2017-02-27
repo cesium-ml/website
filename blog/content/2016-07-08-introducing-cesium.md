@@ -2,6 +2,7 @@ Title: Introducing cesium
 Category: cesium
 Status: published
 
+[](https://github.com/cesium-ml)
 From the reading of electroencephalograms (EEGs) to earthquake seismograms to light
 curves of astronomical variable stars, gleaning insight from time series data
 has been central to a broad range of scientific and medical disciplines. When
