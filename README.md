@@ -1,4 +1,4 @@
-# http://cesium.ml
+# http://cesium-ml.org
 
 ## Installing build dependencies
 

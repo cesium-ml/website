@@ -8,7 +8,7 @@ Summary: Using long polling and other workarounds to deal with
          micro-services.
 
 *This post is part of a series of articles on the infrastructure
-underlying [cesium](http://cesium.ml).  Please send us your feedback
+underlying [cesium](http://cesium-ml.org).  Please send us your feedback
 in the comments section below.*
 
 ## Motivation
